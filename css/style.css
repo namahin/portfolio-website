@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+    display: flex;
+}
+
+.container-half {
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+/* ***************************** */
+/* banner section */
+/* ***************************** */
+.banner-sec {
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.banner-content {
+    padding-top: 120px;
+}
+
+.banner-content h1 {
+    font-size: 56px;
+    color: #FF2178;
+    margin-bottom: 30px;
+}
+
+.banner-content h1 span {
+    color: #1619CA;
+}
+
+.banner-content h2 {
+    color: #AF00FF;
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+.banner-content h3 {
+    font-weight: normal;
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.banner-content p {
+    margin-bottom: 50px;
+    color: #606060;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.banner-content a {
+    text-decoration: none;
+    background: linear-gradient(45deg, #ff7a7a, #FF2178);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    transition: linear .2s;
+}
+
+.banner-content a:hover {
+    padding: 10px 50px;
+    transition: linear .2s;
+}
+
+.banner-img {
+    padding-top: 130px;
+    padding-left: 70px;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* ***************************** */
+/* banner section end */
+/* ***************************** */
+
+/* ***************************** */
+/* about section */
+/* ***************************** */
+.about-sec {
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 120px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.about-img {
+    padding-right: 100px;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+/* ***************************** */
+/* about section end */
+/* ***************************** */
+
+/* ***************************** */
+/* Experiences section */
+/* ***************************** */
+.ex-sec {
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center left;
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+.sec-title h2 {
+    color: #AF00FF;
+    margin-bottom: 50px;
+    font-size: 36px;
+    margin-left: 15px;
+}
+
+.card-view {
+    padding: 30px 25px;
+    box-shadow: 0 3px 6px #bbbbbb82;
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, #ff7a7a, #FF2178);
+    border-image-slice: 1;
+    border-radius: 15px;
+    transition: linear .3s;
+    background: #fff;
+}
+
+.card-view:hover {
+    box-shadow: 3px 3px 10px #bbbbbbb0;
+    transition: linear .3s;
+}
+
+.card-view h2 {
+    margin-bottom: 10px;
+    color: #ff002d;
+}
+
+.card-view h3 {
+    color: royalblue;
+    margin-bottom: 25px;
+}
+
+.card-view p {
+    margin-bottom: 0;
+    color: #606060;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* ***************************** */
+/* Experiences section end */
+/* ***************************** */
+
+footer {
+
+    font-size: 14px;
+    text-align: center;
+    color: grey;
+    padding: 15px;
+}
